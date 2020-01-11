@@ -52,11 +52,6 @@ Image render(const Scene& scene, const RayTracer& tracer, const ViewPlane& viewP
 
 int main(int argc, const char** argv)
 {
-    Image img{2,2};
-    img.set(0, 0, {1.f, 0.f, 0.f});
-    img.set(1, 1, {0.f, 1.f, 0.f});
-	save(img, "test.png");
-
     Scene scene = build();
     RayTracer tracer;
 
