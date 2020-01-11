@@ -30,3 +30,26 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.users
+*.vcxproj.user
+Debug/
+.vs/
+
+# Temp CMake/Conan files
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+conan.lock
+conanbuildinfo.txt
+conanfile.txt
+conaninfo.txt
+graph_info.json
+
+# Temp Image files
+out.png
+test.png
